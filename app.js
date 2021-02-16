@@ -30,7 +30,7 @@ CookieStore.prototype.calcDailyCookieTotal = function(){
   let x = 0;
   for(let i = 0; i < this.cookiesPerHour.length; i++)
     x = x + this.cookiesPerHour[i];
-    this.dailyCookieTotal = x;
+  this.dailyCookieTotal = x;
 };
 
 let seattle = new CookieStore('Seattle', 23, 65, 6.3);
@@ -107,9 +107,9 @@ function footer() {
     trEl.appendChild(tdEl);
   }
   let grandTotal = 0;
-    for(let k=0; k < footerTotals.length; k++) {
+  for(let k=0; k < footerTotals.length; k++) {
     grandTotal += footerTotals[k];
-    }
+  }
   let grandTotalEl = document.createElement('td');
   grandTotalEl.textContent = grandTotal;
   trEl.appendChild(grandTotalEl);

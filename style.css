@@ -1,6 +1,33 @@
-body {
+* {
+    color: black
+}
+
+h1 {
+    background-color:rgb(221, 66, 66);
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
     text-align: center;
-    background-color: blueviolet;
+    font-size: 40px;    
+}
+
+ul {
+    padding: 2px;
+}
+
+body {
+    text-align: center; 
+    background-color: rgb(50, 119, 221);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(67, 220, 20);
+}
+
+a {
+    background-color:rgb(221, 66, 66);
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 40px;  
+    width: fit-content;  
 }
